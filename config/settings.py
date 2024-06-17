@@ -79,7 +79,7 @@ SIMPLE_JWT = {
 AUTHENTICATION_BACKENDS = [
     # 'client_hotel_reservation.custom_auth_backend.ApiSecretAuthenticationBackend',
     'django.contrib.auth.backends.ModelBackend',
-    'client_hotel_reservation.validators.custom_authenticate.EmailBackend'
+    # 'client_hotel_reservation.validators.custom_authenticate.EmailBackend'
 ]
 
 MIDDLEWARE = [
