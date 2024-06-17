@@ -36,7 +36,7 @@ CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOW_CREDENTIALS = True
 
 CORS_ALLOW_ALL_HEADERS = True
-
+ALLOWED_HOSTS = ['reservationhotel.pythonanywhere.com']
 
 INSTALLED_APPS = [
     'client_hotel_reservation',
